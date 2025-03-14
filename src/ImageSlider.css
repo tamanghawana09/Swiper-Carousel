@@ -1,0 +1,59 @@
+/* Container Styling */
+.image-slider {
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px 0;
+  }
+  
+  /* Swiper Wrapper */
+  .swiper {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Swiper Slide */
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f5f5f5;
+    border-radius: 10px;
+  }
+  
+  /* Slide Image */
+  .slide-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  /* Navigation Buttons */
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: #fff;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    border-radius: 50%;
+    transition: background 0.3s ease;
+  }
+  
+  .swiper-button-next:hover,
+  .swiper-button-prev:hover {
+    background: rgba(0, 0, 0, 0.6);
+  }
+  
+  /* Pagination Dots */
+  .swiper-pagination-bullet {
+    background: #555;
+    opacity: 0.7;
+  }
+  
+  .swiper-pagination-bullet-active {
+    background: #007bff;
+    opacity: 1;
+  }
+  
+  
